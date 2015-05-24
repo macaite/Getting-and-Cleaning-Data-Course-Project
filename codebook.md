@@ -6,14 +6,16 @@ tidyData.txt
 ###  List of all the fields
 
 
-1.	Activity_id	1
-	Record Type
-		Number  1-6 representing Activity Type – maps to Activity_Name 
+1.	Activity_id	1	
+Record Type
+Number  1-6 representing Activity Type – maps to Activity_Name 
+
 2.	Subject_id	2
-	Record Type
-		Number 1-30 representing the Identity for each subject in the trials
+Record Type
+Number 1-30 representing the Identity for each subject in the trials
+
 3.	Activity_Name 	
-	Descriptive label mapping for Activity _ id
+Descriptive label mapping for Activity _ id
 
 ###	Fields 4-69
 These are all numberic values for the mean and standard deviation outputs.	
