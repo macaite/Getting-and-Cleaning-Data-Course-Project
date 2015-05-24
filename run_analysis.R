@@ -51,7 +51,7 @@ colnames(activity_labels) <- c("Activity_id","Activity_Name")
 # use a logical vector showing derived from X's colnames
 
 selectedCols <- grepl("mean\\(\\)|std", colnames(X), ignore.case = TRUE)
-X <- X[selectedCols == TRUE]
+X <- X[selectedCols]
 
 # Now finally combine into one data table
 combinedData <- cbind(subjects,Y,X)
