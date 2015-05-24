@@ -33,7 +33,7 @@ The run_anaylsis.R script must be run in the same directory that the downloaded 
 
 The files listed below are read into a R data table and merged into one tide data set.  
 
-####UCI HAR Dataset/features.txt	
+* UCI HAR Dataset/features.txt	
 to be as headings for the combined X files
 
 The data is divided into two datasets, Test and Train.  All the Test and Train files are combined into one data table
@@ -41,14 +41,14 @@ The X files list all the measred data as per the features file
 The Y files list all the acivitity id's
 The subject files list all the subject ID's
 
-####UCI HAR Dataset/train/subject_train.txt
-####UCI HAR Dataset/train/X_train.txt
-####UCI HAR Dataset/train/y_train.txt
-####UCI HAR Dataset/test/subject_test.txt
-####UCI HAR Dataset/test/X_test.txt
-####UCI HAR Dataset/test/y_test.txt
+* UCI HAR Dataset/train/subject_train.txt
+* UCI HAR Dataset/train/X_train.txt
+* UCI HAR Dataset/train/y_train.txt
+* UCI HAR Dataset/test/subject_test.txt
+* UCI HAR Dataset/test/X_test.txt
+* UCI HAR Dataset/test/y_test.txt
 
-####UCI HAR Dataset/activity_labels.txt	
+* UCI HAR Dataset/activity_labels.txt	
 provides desciptive labels for the activities in the Y files.
 
 Comments in the run_analysis.R script describe the steps 1-5 from project brief above
