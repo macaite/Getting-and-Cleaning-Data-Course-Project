@@ -24,33 +24,35 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ### Submission list
 
 run_analysis.R	
-Codebood.md			the codebook for the tidy data output from the run_analysis.R script
+Codebook.md
 Readme.md
 
 ### run analysis discription
 
 The run_anaylsis.R script must be run in the same directory that the downloaded data is unzipped in
 
-The files listed below are read into R data table and to be merged into one tide data set.  
+The files listed below are read into a R data table and merged into one tide data set.  
 
-UCI HAR Dataset/features.txt	-	to be as headings for the combined X files
+####UCI HAR Dataset/features.txt	
+to be as headings for the combined X files
 
-The data is divided into two datasets, Test and Train.  The Test and Train file are combined into one data table
-The X files list all the data as per the features files
+The data is divided into two datasets, Test and Train.  All the Test and Train files are combined into one data table
+The X files list all the measred data as per the features file
 The Y files list all the acivitity id's
 The subject files list all the subject ID's
 
-UCI HAR Dataset/train/subject_train.txt
-UCI HAR Dataset/train/X_train.txt
-UCI HAR Dataset/train/y_train.txt
-UCI HAR Dataset/test/subject_test.txt
-UCI HAR Dataset/test/X_test.txt
-UCI HAR Dataset/test/y_test.txt
+####UCI HAR Dataset/train/subject_train.txt
+####UCI HAR Dataset/train/X_train.txt
+####UCI HAR Dataset/train/y_train.txt
+####UCI HAR Dataset/test/subject_test.txt
+####UCI HAR Dataset/test/X_test.txt
+####UCI HAR Dataset/test/y_test.txt
 
-UCI HAR Dataset/activity_labels.txt	- provides desciptive labels for the activities in the Y files.
+####UCI HAR Dataset/activity_labels.txt	
+provides desciptive labels for the activities in the Y files.
 
-Comments in the run_analysis.R script describe the steps 1-5 from above
+Comments in the run_analysis.R script describe the steps 1-5 from project brief above
 
-The tidy dataset is written using the write.table command to the base directory as tidyData.txt.  
+The tidy dataset is written out using the write.table command to the base directory as tidyData.txt.  
 tidyData.txt can be read into R using the read.table command with headers set to TRUE
 
